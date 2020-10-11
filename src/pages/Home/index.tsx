@@ -199,12 +199,12 @@ const Home: React.FC = () => {
           <CardImg top width="100%" src={landing} alt="portifolio" />
           <CardBody>
             <CardTitle>
-              <Link
-                to="https://thayller.github.io/landing-page/"
+              <a
+                href="https://thayller.github.io/landing-page/"
                 target="_blank"
               >
                 Portifólio
-              </Link>
+              </a>
             </CardTitle>
             <CardText>
               Landing page com foco na captação de clientes para empresas que
@@ -216,13 +216,63 @@ const Home: React.FC = () => {
           <CardImg top width="100%" src={ezshop} alt="portifolio" />
           <CardBody>
             <CardTitle>
-              <Link to="https://www.ezshopmarket.com/" target="_blank">
+              <a href="http://www.ezshopmarket.com/" target="_blank">
                 EzShop
-              </Link>
+              </a>
             </CardTitle>
             <CardText>
               Ecommerce focado em supermercado online para um mercado nos EUA
               feito em wordpress
+            </CardText>
+          </CardBody>
+        </Cards>
+      </CardGroup>
+      <CardGroup>
+        <Cards style={{ alignItems: 'center' }}>
+          <CardImg
+            style={{ width: 250 }}
+            top
+            width="150"
+            src="https://lh3.googleusercontent.com/QLJBOXAObXV4UTtHMokNWdiKUWR4zv-aEM9eFpel72C42L1T1K1MZRyKEnabdscEb6c=s180-rw"
+            alt="portifolio"
+          />
+          <CardBody>
+            <CardTitle>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.mr.consorcios.appsimulacao"
+                target="_blank"
+              >
+                Mr Consórcio
+              </a>
+            </CardTitle>
+            <CardText>
+              Aplicativo para empresa de consórcios, tem como foco capitalizar
+              de clientes
+            </CardText>
+          </CardBody>
+        </Cards>
+        <Cards style={{ alignItems: 'center' }}>
+          <CardImg
+            style={{ width: 250 }}
+            top
+            width="150"
+            src="https://lh3.googleusercontent.com/T3DQ9wXhVbtgVGqacDbtryR3SCUjwWAejyxB6rlBUquRpdTpjBhtqoC1m45fsoMt5g=s180-rw"
+            alt="portifolio"
+          />
+          <CardBody>
+            <CardTitle>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.simulador.economia"
+                target="_blank"
+              >
+                Simulador de Economia
+              </a>
+            </CardTitle>
+            <CardText>
+              O simulador de economia foi criado com intuito de desmistificar o
+              uso da tecnologia em beneficio ao meio-ambiente e oferecer ao
+              usuário a possibilidade de comparar o uso de papel toalha com a
+              solução do uso de secadores de mãos automático.
             </CardText>
           </CardBody>
         </Cards>
